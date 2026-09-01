@@ -23,7 +23,8 @@
       <a href="https://cal.moe/about" class="section-link">Learn more about Cal Animage Alpha</a>
       <br/><br/>
 
-      <img src="images/animage.jpg" alt="Work in Progress" style="width: 80%; height: auto;margin:auto;" />
+      <!-- Remove once new cal animage alpha logo is added-->
+      <!-- <img src="images/animage.jpg" alt="Work in Progress" style="width: 80%; height: auto;margin:auto;" /> -->
 
     </div>
     

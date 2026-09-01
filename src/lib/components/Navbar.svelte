@@ -3,7 +3,7 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
-  let ticketLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
+  let ticketLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
 
@@ -62,6 +62,7 @@
           <a href="/artists">Artist Alley</a>
           <a href="/#map-schedule">Schedule and Map</a>
           <a href="/parking">Parking</a>
+          <a href="/sponsors">Sponsors</a>
         </div>
       {/if}
     </div>
@@ -86,49 +87,74 @@
     <!-- Dropdown Menu -->
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+    <div class="sub-links">To Be Announced - Stay Tuned!</div>
+
     <!-- Category: 3rd Floor - Stephens Hall -->
-    <div class="category">Stephens Hall (3rd Floor)</div>
+    <!--
+    <div class="category">Pauley Ballroom (3rd Floor)</div>
     <div class="sub-links">
-      <!-- Panels -->
       <a href="/artists">Artist Alley</a>
-      <a href="/programming#panel-music-voice-acting">Music and Voice Acting Panel</a>
-      
-      <!-- Workshops -->
-      <a href="/programming#workshop-anime-trivia">CAA Anime Trivia</a>
-      
-      <!-- Events -->
+      <a href="/special-guests">Special Guests</a>
+    </div>
+    -->
+
+    <!--
+    <div class="category">Stephens Hall (3rd Floor)</div>
+    -->
+    <div class="sub-links">
+      <!-- Events (Chronological)-->
+      <!-- Perhaps add start and end time for artist alley?-->
+      <!--
+      <a href="/programming#panel-guess-song">Guess The Song: Anime Edition</a>
+      <a href="/programming#event-nene-qna">Q&A with Nene Amano</a>
+      <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
+      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
+      <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
       <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
       <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
+      -->
     </div>
 
     <!-- Category: 5th Floor - Tilden Room -->
+    <!--
     <div class="category">Tilden Room (5th Floor)</div>
+    -->
     <div class="sub-links">
-      <!-- Panels -->
-      <a href="/programming#panel-cosplay-wrestling">Cosplay Wrestling Federation</a>
-      
-      <!-- Workshops -->
-      <a href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->
-      
-      <!-- Events -->
-      <a href="/programming#event-intermission-orchestra">The Intermission Orchestra</a>
-      <a href="/programming#event-anikura-destiny">Anikura Destiny</a>
+      <!-- Events (Chronological)-->
+      <!--
+      <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
+      <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
+      <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
+      <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
+      <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
+      <a href="/programming#event-intermission">The Intermission Orchestra</a>
+      <a href="/programming#event-virtual-bears">Virtual Bears: VTuber Mini Concert</a>
+      -->
     </div>
   </div>
 {/if}
 
   </div>
+  <a href="/cosplay">Cosplay</a>
+  <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
+  <a href="/special-guests">Special Guests</a>
     <!-- Buy a Ticket -->
-    <!-- a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a -->
+    <!-- <a
+      href={ticketLink}
+      class="ml-4 inline-block rounded-full bg-[#3F6CC9] px-5 py-2 -my-1 text-xs font-bold tracking-wide text-white uppercase font-['Montserrat'] shadow-md hover:bg-[#2F4898] transition-colors duration-200"
+    >
+      Purchase Tickets
+    </a> -->
 
-    <!-- Discord and Instagram -->
+    <!-- Discord and Instagram 
     <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/discord.svg" alt="Discord" class="icon"/>
     </a>
     <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/instagram.svg" alt="Instagram" class="icon"/>
     </a>
+    -->
   </div>
   <!-- Mobile Menu Trigger -->
   <div class="hamburger mobile-only" on:click={toggleMenu}>
@@ -155,21 +181,29 @@
       <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Homepage</a>
       <a href="/about" on:click={closeMenu} in:fade={{ duration: 500 }}>About AD</a>
       <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
+      <a href="/special-guests" on:click={closeMenu} in:fade={{ duration: 500 }}>Special Guests</a>
       <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
-      <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
+      <!--<a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>-->
       <a href="/rules">Rules</a>
+      <a href="/sponsors">Sponsors</a>
       
-      <!-- Buy a Ticket -->
-      <!--a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a -->
-
-      <!-- Discord and Instagram Icons -->
+      <!-- Discord and Instagram Icons 
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!
       </a>
       <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
         Follow our Instagram!
       </a>
+      -->
+
+
     </div>
+          <a
+      href={ticketLink}
+      class="block w-full bg-[#3F6CC9] py-7 -my-[6rem] text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
+    >
+      Buy Tickets
+    </a>
   </div>
 </nav>
 
@@ -321,6 +355,12 @@
   .sub-links {
     padding-left: 20px; /* Indent the sub-links */
   }
+
+  .main-links {
+    padding-top:10px;
+    margin-left: 5px!important; /* Indent the sub-links */
+  }
+
 
   .sub-links a {
     display: block;

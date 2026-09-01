@@ -7,13 +7,13 @@
   import Events from '$lib/components/Events.svelte';
   import { fade } from 'svelte/transition';
 
-  let desktopImage = 'images/hero.png';
-  let mobileImage = 'images/hero.png';
+  let desktopImage = 'images/bg2026.png';
+  let mobileImage = 'images/bg2026.png';
 
   let exhibitorsImage = 'https://example.com/exhibitors-image.jpg';
   let scheduleImage = 'debug/test-schedule.png';
   let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
-  let purchaseLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
+  let purchaseLink = 'https://buy.stripe.com/8x2fZi8M81qC5tT363bAs05';
   let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
@@ -65,33 +65,46 @@
 <Navbar />
 
 <main>
-  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Online tickets have closed! Tickets will still be available at the gate for $20.</p>
+  <div class="gradient" style="background: linear-gradient(90deg, #2F4898, #5892DA, #2F4898); padding: 1rem; text-align: center;">
+    <!--<p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Online tickets have closed! Tickets will still be available at the gate for $20.</p> -->
+    <!-- Buy Tickets Now Section -->
+    <section>
+
+      <!-- <h2 style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Buy Tickets Now</h2> -->
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link" style="font-family: 'Montserrat', sans-serif; font-size: 3rem; color: white; margin: 0;" >Tickets are now available for purchase online, $18 pre-sale price!</a>
+      <br />
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Tickets are available for purchase in-person. See you there!</p> -->
+    </section>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
     <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" draggable="false" />
     
     <div class="overlay">
-      <!-- <h1 class="event-title">Anime Destiny 2024</h1>
-      <p class="event-date">Saturday, November 9</p> -->
-      <img src="images/ADLogo.png" alt="AD Logo" class="ADLogo" draggable="false"/>
-      <p class="event-time">Saturday, November 9th</p>
+      <!--<h1 class="event-title">Anime Destiny 2026</h1> -->
+      <img src="/images/logo2026.png" alt="AD Logo" class="ADLogo" draggable="false"/>
+      <p class="event-date">Sunday, November 15th</p>
+      <p class="event-time">10:00 AM to 7:00 PM</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
+      <p class="event-time">Day 0 - Saturday, November 14th 12:00 PM to 6:00 PM on Lower Sproul Plaza</p>
     </div>
   </div>
 
-  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
+  <!-- <div class="gradient" style="background: linear-gradient(90deg, #2F4898, #5892DA, #2F4898); padding: 1rem; text-align: center;">
     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href="/cosplay-contest">Sign-up for the cosplay contest here! Prizes included.</a></p>
-  </div>
+  </div> -->
   
   <div class="event-info">
     <!-- "What is Anime Destiny" Section -->
     <section id="about" style="padding: 2rem 0;">
-      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2026</h2>
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Saturday, November 9, 2024</strong>, from <strong>9:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Sunday, November 15, 2026</strong>, from <strong>10:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+      </p>
+      
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        We will also be hosting a Day 0 on <strong>Saturday, November 14</strong>, from <strong>12:00 PM to 6:00 PM</strong> on Lower Sproul Plaza, which is located outside of the ASUC Student Union. Come to see our opening ceremony, performances, food/drink vendors, and early badge pick-ups/purchases!
       </p>
 
       <iframe 
@@ -103,7 +116,7 @@
       </iframe>
 
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $20, and tickets are available at the door. Online ticket purchases closed on <strong>Thursday, November 7</strong> at 11:59 PM.
+        Admission is $18, and tickets are available at the door for $23. Online ticket purchases will close on <strong>Friday, November 13th</strong> at 11:59 PM.
       </p>
 
     
@@ -166,18 +179,18 @@
     
     <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
       <li>Artist Alley featuring talented artists and vendors</li>
+      <li>Special guests including voice actors and VTubers</li>
       <li>Panels and workshops</li>
-      <li>Cosplay contests and masquerades</li>
+      <!-- <li>Cosplay contests</li> -->
       <li>Live performances by The Intermission Orchestra and Nikkei Choral Ensemble</li>
       <li>Interactive Genshin at Berkeley activities</li>
-      <li>Anikura Destiny: An exciting anime rave with live DJs</li>
       <li>And much more!</li>
     </ul>
 
 
 
 
-    <Events/>
+    <!-- <Events/> -->
   </section>
 
   <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
@@ -204,9 +217,10 @@
     what artists are there, etc. -->
     <!-- Exhibitors Section -->
     <section>
-      <h2>Artist Alley/Exhibitors</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
-      <div class="content-container">
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Artist Alley/Exhibitors</h2>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2026! Explore and support their talent through the Artist Alley.</p> -->
+      <!-- <div class="content-container">
         <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
         <div style="padding:1rem 0;">
         <a on:click={openOverlayArtistMap}>Click for larger image!</a>
@@ -216,26 +230,27 @@
             <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
             <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
           </div>
-        {/if}
-        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
-        <div class="embed-wrapper">      
+        {/if} -->                                    <!-- Restore once an artist alley map is completed -->
+        <!-- <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
+        <div class="embed-wrapper"> -->
           <!-- YouTube Embed -->
-          <div id="embed youtube-embed">
+          <!-- <div id="embed youtube-embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </div>
-        <a href="/artists" class="section-link">View the list of artists in AD 2024 here!</a>
-      </div>
+          </div> -->
+        <!-- </div>
+         <a href="/artists" class="section-link">View the list of artists in AD 2026 here!</a>
+      </div> -->
     </section>
     <hr />
 
     <!-- Gaming Hall Section -->
     <section>
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!
-      </p>
-      <Gaming/>
+      </p> 
+      <Gaming/> -->
     </section>
     <hr />
     
@@ -245,21 +260,13 @@
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-          Here is the schedule of events for Anime Destiny 2024. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+        <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+          Here is the schedule of events for Anime Destiny 2025. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>
 
-        <div style="padding-right: 2rem;">
-          <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
-          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-              For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
-          </p>
-        </div>
-        
-        
-
         <div class="content-container">
-          <img src="images/schedule.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
+          <img src="images/schedule.temp.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADSchedule}>Click for larger image!</a>
           </div>
@@ -267,12 +274,38 @@
         {#if showOverlayADSchedule}
           <div class="overlay-artist-map"  on:click={closeOverlayADSchedule} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
             <button class="close-button-artist-map" on:click={closeOverlayADSchedule}>✕</button>
-            <img src="images/schedule.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+            <img src="images/schedule.temp.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
         
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Event map:</h3>
+        
+
         <div class="content-container">
-          <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
+          <img src="images/AD 2025 MAP.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+          <div style="padding:1rem 0;">
+          <a on:click={openOverlayArtistMap}>Click for larger image!</a>
+          </div>
+        </div>
+        {#if showOverlayArtistMap}
+          <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+            <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
+            <img src="images/AD 2025 MAP.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+          </div>
+        {/if}
+
+
+        <div style="padding-right: 2rem;">
+          <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+              For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
+          </p>
+        </div>
+
+        -->
+        
+        <div class="content-container">
+          <img src="images/parking.jpg" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADMap}>Click for larger image!</a>
           </div>
@@ -280,7 +313,7 @@
         {#if showOverlayADMap}
           <div class="overlay-artist-map"  on:click={closeOverlayADMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
             <button class="close-button-artist-map" on:click={closeOverlayADMap}>✕</button>
-            <img src="images/AD map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+            <img src="images/parking.jpg" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
       </div>
@@ -296,9 +329,9 @@
   </p>
 </div>
 
-    <!-- <hr/>
+    <hr/> //
 
-    Buy Tickets Now Section 
+    <!-- Buy Tickets Now Section 
     <section>
       <h2>Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
@@ -318,7 +351,7 @@
   .hero-image {
     position: relative;
     height: 100vh;
-    min-height: 750px;
+    max-height: 750px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -333,7 +366,17 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center top;
+    transform: scale(1.3)  translateY(-50px);
+    transform-origin: center; 
   }
+
+  /* Mobile override */
+  @media (max-width: 768px) {
+  .hero-image img {
+    transform: scale(1.0) translateY(0px); /* less zoom for mobile */
+  }
+}
 
   .hero-image .overlay {
     color: white;
@@ -349,33 +392,73 @@
 
   .hero-image .ADLogo {
     position: relative;
+    top: 330px; 
+    width: 150%;         
+    max-width: 400px;   
+    height: auto;       
+    display: block;
+    margin: 0 auto 35rem auto; 
+    transform: translateY(-150px);
   }
+  
+  @media (min-width: 768px) {                   /* adjusts size for desktop */
+  .hero-image .ADLogo {
+    width: 1000px;       
+    max-width: 1500px;
+    height: auto;
+    display: block;
+    transform: translateY(-75px);
+  }
+}
 
   .event-title {
     font-family: 'Protest Strike', sans-serif;
     font-size: 5rem;
     margin: 0;
+    transform: translateY(-100px);
   }
 
   .event-date {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin-top: 0.5rem;
+    transform: translateY(-150px);
   }
 
   .event-time, .event-location {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-top: 0.5rem;
+    transform: translateY(-150px);
   }
 
   .event-time {
     font-weight: 700;
+    transform: translateY(-150px);
   }
 
   .event-location {
     font-weight: 450;
+    transform: translateY(-150px);
   }
+
+  /* Desktop overrides */
+  @media (min-width: 768px) {
+  .event-title { 
+    font-size: 5rem;          /* bigger on desktop */
+    transform: translateY(-200px);
+  }
+
+  .event-date {
+    font-size: 2rem;
+    transform: translateY(-250px);
+  }
+
+  .event-time, .event-location {
+    font-size: 1.5rem;
+    transform: translateY(-250px);
+  }
+}
 
   /* Event Info Section */
   .event-info {

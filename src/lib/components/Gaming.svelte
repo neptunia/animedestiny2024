@@ -19,12 +19,6 @@
         description: "Challenge your mind with strategic play at the UC Berkeley Mahjong Club.",
       },
       {
-        name: "Rhythm Games at Berkeley",
-        link: "https://berkeleyclubs.com/club/RhythmatBerkeley",
-        logo: "icons/rythm.png",
-        description: "Dive into the rhythm and music with Rhythm Games at Berkeley.",
-      },
-      {
         name: "Fighting Games at Berkeley",
         link: "https://x.com/berkeleyfgc",
         logo: "icons/fgb.jpg",

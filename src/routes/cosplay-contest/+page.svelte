@@ -6,28 +6,28 @@
   const judges = [
     
     {
-      name: "Aeson Coser",
-      description: "Current CAA officer and Bay Area cosplayer",
-      intro: "Hey, I’m aeson_coser, and I’m super excited to be a cosplay competition judge at Anime Destiny this year! I’ve been cosplaying for seven years, but it’s really been the past couple of years where I have definitely improved. Right now, I’m working on cosplays for Nana, Karlach, and Pomni. I’m also a huge fan of Final Fantasy, Arcane, and Digital Circus! I’m really looking forward to seeing what everyone brings to the stage!",
-      socialLink: "https://instagram.com/aeson_coser",
-      socialName: "@aeson_coser",
-      imageUrl: "images/aeson.jpg"
+      name: "Astro (astros_here)",
+      description: "_______________",
+      intro: "Meet Astro ( astros_here ) a 55+ Award winning master level competitive cosplayer from central California! They specialize in sewing and needlework but dabbles is alot of different mediums and materials! Astro knows a plethora of techniques and skills! They have competed and judges all over the United states and have been published in magazines before! They have been cosplaying for 8 years and have made well over 30+ unique costumes! Astro is also a chronically ill/disabled and queer cosplayer who wants to carve out a space for everyone within the cosplay community! Come meet and talk shop with Astro! They are always willing to give advice on cosplay, build books and more!",
+      socialLink: "https://www.instagram.com/astros_here/",
+      socialName: "@astros_here",
+      imageUrl: "images/AnimeDestiny-2025CosplayGuestAstro.jpg"
     },
     {
-      name: "Daniel",
-      description: "Current CAA executive and former Anime Destiny officer/cosplay contest host",
-      intro: "Hi, I'm Daniel! I'm currently the Vice-President/Treasurer for CAA. Last year, I was an Anime Destiny planner and I co-hosted the 2023 cosplay contest. I cosplay casually whenever I get the chance and I love attending conventions to meet new people!  I look forward to AD 2024!",
-      socialLink: null,
-      socialName: null,
-      imageUrl: "images/daniel2.jpg"
+      name: "Elee (theacalix)",
+      description: "_______________",
+      intro: "Theacalix is a masters level cosplayer with 13 years of experience. They specialize in sewing craftsmanship builds across a variety of media with a specialty in original design. Thea loves to chat about cosplay, craftsmanship, and fandom so come say hi!",
+      socialLink: "https://www.instagram.com/theacalix/",
+      socialName: "@theacalix",
+      imageUrl: "images/AnimeDestiny-2025CosplayGuestThecalix.jpg"
     },
     {
-      name: "Nomi",
-      description: "Former CAA officer, Bay Area cosplayer",
-      intro: "Hallo! I’m nomi, a Bay Area based craft cosplayer. When it comes to making cosplays, I love figuring out how to interpret non physical design elements to real life. I personally prefer a live action interpretation of a character’s design rather than a strict following of a stylized appearance, and enjoy taking inspiration from film. Outside of cosplay, I love drawing, playing video games, and talking about physics - if you need someone to help you navigate studying physics at UCB and get research, let me know. Or if you want someone to join your Baldur’s Gate 3 co-op campaign, I’m also available for conscription.",
-      socialLink: "https://instagram.com/nawhmi.cos",
-      socialName: "@nawhmi.cos",
-      imageUrl: "images/nomi.jpg"
+      name: "Max (Deadgoatcos)",
+      description: "_______________",
+      intro: "Deadgoatcos is excited for her first guesting experience. With her 7 years of cosplaying and certificate of costume design she is so happy to share her knowledge and expertise with the con goers. Thank you Anime Destiny for allowing me this opportunity. See everyone at con!!",
+      socialLink: "https://www.instagram.com/deadgoatcos/",
+      socialName: "@deadgoatcos",
+      imageUrl: "images/AnimeDestiny-2025CosplayGuestDeadgoatcos.jpg"
     }
   ];
 
@@ -86,31 +86,30 @@
   
   <main>
     <div class="page-title">
-      Cosplay Contest (Masquerade)
+      Cosplay Contest
     </div>
     <div class="page-body">
 
       <section id="workshop-cosplay-contest">
         <div class="spacer"></div>
         <p>
-          We will be holding our annual AD cosplay contest this year in <strong>Tilden Room</strong> from <strong>12:00 PM - 1:30 PM</strong>.
+          We will be holding our annual AD cosplay contest this year in <strong>Tilden Room</strong> from <strong>12:00 PM - 1:00 PM</strong>.
         </p>
         <p>
           Join Berkeley’s cosplayers for a fun and welcoming event! Show off your cosplaying skills or just enjoy watching the amazing talent at Anime Destiny.
           Anyone who has a costume and is interested is welcome to join! Whether you're a seasoned cosplayer or it's your first time, we'd love to see you there!
-          Sign up here: <a href="https://forms.gle/yFaseo2pursJjzodA" target="_blank" class="section-link">Cosplay Sign-Up Form</a>  
+          Sign up here: <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Cosplay Sign-Up Form</a>  
         </p>
         <div class="spacer"></div>
         <p>
           Prizes will be awarded to the top three cosplays, as determined by our judging panel. The prizes are as follows:
         </p>
         <ul class="prizes-list">
-          <li><strong>1st Place</strong>: Anime Destiny lifetime pass + AD Merchandise + Stickers</li>
-          <li><strong>2nd Place</strong>: AD Merchandise + Stickers</li>
-          <li><strong>3rd Place</strong>: AD Merchandise</li>
+          <li><strong>Best in Craftsmanship: </strong> Anime Destiny Lifetime Pass + Anime Destiny Merchandise + $50</li>
+          <li><strong>Best in Performance: </strong> Anime Destiny Lifetime Pass + Anime Destiny Merchandise + $50</li>
+          <li><strong>2nd Place Overall:</strong> Anime Destiny Merchandise + $25</li>
+          <li><strong>3rd Place Overall: </strong> $25 </li>
         </ul>
-
-        <p>Depending on attendance, separate first place prizing may be awarded to both the best store-bought and the best handmade costumes. The full rules may be read on the sign-up form.</p>
 
         <br>
 
@@ -170,7 +169,7 @@
         <div class="spacer"></div>
 
         <div class="bottom-text">
-          What are you waiting for? <a href="https://forms.gle/yFaseo2pursJjzodA" target="_blank" class="section-link">Sign Up Now!</a>  
+          What are you waiting for? <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Sign Up Now!</a>  
 
         </div>
         

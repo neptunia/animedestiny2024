@@ -17,21 +17,15 @@
       {
         title: "Intermission Orchestra Performance",
         description: "Live music from anime, video games, and more by Berkeley's orchestra.",
-        image: "images/intermission-concert.png",
+        image: "images/tio_pic.png",
         link: "/programming#event-intermission-orchestra",
       },
       {
         title: "Nikkei Choral Ensemble Performance",
         description: "A beautiful acapella set of J-pop, anime songs, and more.",
-        image: "images/nikkei.jpeg",
+        image: "images/nikkei_pic.png",
         link: "/programming#event-nikkei-choral-performance",
       },
-      {
-        title: "Anikura Destiny",
-        description: "An exciting anime rave with live DJs and performances.",
-        image: "images/anikura.png",
-        link: "/programming#event-anikura-destiny",
-      }
     ];
   
     function nextSlide() {

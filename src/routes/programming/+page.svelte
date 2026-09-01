@@ -43,121 +43,28 @@
   </div>
 
   <div class="page-body">
-    <!-- 3rd Floor - Stephens Hall -->
-    <section id="stephens-hall">
-      <h2>3rd Floor - Stephens Hall</h2>
-
-      <!-- Panels -->
-      <div class="panel-category">
-        <h3>Panels</h3>
-
-        <section id="panel-music-voice-acting" class="program-card" class:glow={currentHash === "#panel-music-voice-acting"}>
-          <div class="name-bar"><h4>Entering the Music and Voice Acting Industry with Raj Ramayya</h4></div>
-          <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 1:30 PM - 2:30 PM</p>
-          <p>An industry panel with Raj Ramayya, an Indo-Canadian Singer/Songwriter/Composer with over 250 television commercial writing, co-writing, and singing credits. Raj’s involvement includes "Resident Evil", "Gungrave", and "Cowboy Bebop". Join this session to discuss the music and voice acting industry!</p>
-        </section>
-      </div>
-
-
-      <!-- Events -->
-      <div class="event-category">
-        <h3>Events</h3>
-
-        <section id="workshop-anime-trivia" class="program-card" class:glow={currentHash === "#panel-music-voice-acting"}>
-          <div class="name-bar"><h4>CAA Anime Trivia!</h4></div>
-          <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 9:30 AM - 10:30 AM</p>
-          <p>From <i>Kakegurui</i> to <i>Dress up Darling</i>, join the CAA Events Team in a team game of <strong>Um Actually</strong>! Show off your anime knowledge!</p>
-        </section>
-        
-        <section id="event-nikkei-choral-performance" class="program-card" class:glow={currentHash === "#event-nikkei-choral-performance"}>
-          <div class="name-bar"><h4>Nikkei Choral Ensemble Performance</h4></div>
-          <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
-          <p>Student group performing an acapella set of songs, including Jpop, Anime songs, and some English music. Join NiCE for a fantastic live performance of popular hits!</p>
-          <p>Website: <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank" class="link">https://niceacappella.studentorg.berkeley.edu/</a></p>
-          <p>Social Media: @nikkeichoralensemble</p>
-          
-          <div class="nikkei-container">
-            <div class="video-container">            
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Zft_N-6KHsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <img src="images/nikkei-choral.png" alt="Work in Progress" class="nikkei-image" />
-          </div>
-        </section>
-
-        <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
-          <div class="name-bar"><h4>Genshin at Berkeley Club Event</h4></div>
-          <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
-          <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
-          <p>Discord: <a href="https://discord.gg/XwGc7eWDF6" class="link">
-            https://discord.gg/XwGc7eWDF6
-          </a>
-          </p>
-          <p>Instagram: @genshinatberkeley</p>
-          <div class="genshin-container">
-            <img src="images/genshin_profile.png" alt="Work in Progress" />
-          </div>
-        </section>
-      </div>
-    </section>
+  <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
 
     <!-- 5th Floor - Tilden Room -->
+    <!--
     <section id="tilden-room">
       <h2>5th Floor - Tilden Room</h2>
 
       <!-- Panels -->
       <div class="panel-category">
-        <h3>Panels</h3>
+        <!--<h3>Panels</h3>-->
 
-        <section id="panel-cosplay-wrestling" class="program-card" class:glow={currentHash === "#panel-cosplay-wrestling"}>
-          <div class="name-bar"><h4>Cosplay Wrestling Federation</h4></div>
-          <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 10:30 AM - 11:30 AM</p>
-          <p>The CWF is back at UC Berkeley to once again, school you in the ABCs of wrestling, comedy and improv! Cosplay Wrestling Federation is a competitive event bringing the biggest personalities on stage, in the spirit of pro wrestling, improv and cosplay. Our organization has been performing at major California conventions since January 2014, including Anime Los Angeles, Fanime, Anime Expo and Los Angeles Comic Con.</p>
-          <p>Linktree: <a href="https://linktr.ee/cosplaywrestlingfederation" class="link">
-            https://linktr.ee/cosplaywrestlingfederation
-          </a>
-            <div class="wrestling-container">
-            <img src="images/cosplaywrestling.png" alt="Cosplay Wrestling" style="display: block; margin: 0 auto; max-width:200px; max-height:200px;" />
-            </div>
+        <!-- <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4></h4></div>
+           <p><strong>Location:</strong> Tilden Room Patio</p>
+          <p><strong>Time:</strong> 10:00 AM - 10:30 AM</p>
+          <p>This is Issei Band, a band consisting of members that are all in UC Berkeley’s Japanese Language program. They will be performing hit songs from anime and J-pop culture; please enjoy! The performance will kick-off Anime Destiny 2025 and end with a special word from our Director!</p>
+          <div class="issei-band-image">
+            <img src="images\Anime Destiny 2025 - Issei Band (3).png" alt="Work in Progress" />
+          </div>
         </section>
       </div>
-
-      <!-- Events -->
-      <div class="event-category">
-        <h3>Events</h3>
-
-        <section id="event-intermission-orchestra" class="program-card" class:glow={currentHash === "#event-intermission-orchestra"}>
-          <div class="name-bar"><h4>The Intermission Orchestra</h4></div>
-          <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 2:00 PM - 3:00 PM</p>
-          <p>The Intermission Orchestra is a student-led community that performs music from anime, video games, and films. Enjoy their performance, which includes both full orchestral and small ensemble pieces!</p>
-          <p>Social Media: @intermissionberkeley</p>
-          <div class="intermission-container">
-            <div class="intermission-image">
-              <img src="images/intermission-profile.png" alt="Work in Progress" />
-            </div>
-            <div class="intermission-image">
-              <img src="images/intermission-concert.png" alt="Work in Progress" />
-            </div>
-          </div>
-        </section>
-
-        <section id="event-anikura-destiny" class="program-card" class:glow={currentHash === "#event-anikura-destiny"}>
-          <div class="name-bar"><h4>Anikura Destiny</h4></div>
-          <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 4:30 PM - 7:00 PM</p>
-          <p>Come experience an anime rave featuring live DJs performing various hits across anime, games, and Japanese media. Dance and enjoy the rave atmosphere at Anime Destiny!</p>
-          <div class="video-container" style="display: flex; justify-content:center;padding-top:10px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UpmPM_NzA70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-    </section>
-
-  </div>
-  
+      -->
   
 </main>
 
@@ -221,86 +128,181 @@
     p {
       margin-bottom: 1rem;
     }
-  
-.nikkei-container {
-  display: flex;
-  justify-content:center;
-  padding: 15px;
-  flex-wrap: wrap;
-  gap: 10px 50px;
-}
 
-.link {
-  color: #485077;
-  text-decoration: none;
-  border-bottom: 1px solid #485077; /* Underline links */
-  transition: color 0.3s ease, border-bottom-color 0.3s ease;
-  word-wrap: break-word;
-  font-weight: bold;
-}
-
-.link:hover {
-  color: #fed893; /* Yellow on hover */
-  border-bottom-color: #fed893;
-}
-
-.nikkei-image {
-  max-width:200px;
-  max-height:200px;
-  margin:auto 0;
-  padding: 5px;
-}
-
-.genshin-container {
-  display: flex;
-  padding: 15px;
-}
-
-.wrestling-container {
-  display: flex;
-  padding: 15px;
-}
-
-.genshin-container img {
-  max-width:200px;
-  max-height:200px;
-  margin:0 auto;
-  padding: 5px;
-}
-
-.intermission-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px 50px;
-}
-
-.intermission-image img {
-  height: 200px;
-}
-
-/* Responsive Styles */
-@media (max-width: 1024px) {
-  .video-container iframe {
-    height: 400px; /* Adjust height for tablets */
-    width: 100%;
+  .link {
+    color: #485077;
+    text-decoration: none;
+    border-bottom: 1px solid #485077; /* Underline links */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    word-wrap: break-word;
+    font-weight: bold;
   }
-}
 
-@media (max-width: 768px) {
-  .video-container iframe {
-    height: 300px; /* Adjust height for mobile screens */
-    width: 100%;
+  .link:hover {
+    color: #fed893; /* Yellow on hover */
+    border-bottom-color: #fed893;
   }
-}
 
-@media (max-width: 480px) {
-  .video-container iframe {
-    height: 200px; /* Adjust height for small mobile screens */
-    width: 100%;
+  /* Step 1: Combine all your repetitive image styles into one */
+  .image-wrapper img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 5px;
+    height: auto; /* Use auto for better responsive scaling */
   }
-}
+
+  /* Step 2: Create a flex container for the card's content */
+  .card-content {
+    display: flex;
+    flex-direction: row; /* Arrange items side-by-side */
+    gap: 1rem; /* Add space between text and image */
+  }
+
+  /* Step 3: Define the text wrapper to take up half the space */
+  .text-wrapper {
+    flex: 1; /* Allows the text block to grow */
+    max-width: 50%; /* Restricts it to half the container's width */
+  }
+
+  /* Step 4: Define the image wrapper */
+  .image-wrapper {
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    flex: 1; /* Allows the image block to grow */
+  }
+
+  .guess-song-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .nene-qna-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .nikkei-choral-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .jpop-kpop-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .shipgirls-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .himeko-firefly-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 50px;
+  }
+
+  .himeko-firefly-image img {
+    height: 300px;
+  }
+
+  .genshin-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .issei-band-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .cosplay-competition-101-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .cosplay-comp-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .otaku-ongaku-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .wotagei-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .intermission-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 50px;
+  }
+
+  .intermission-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .virtual-bears-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .video-container iframe {
+      height: 400px; /* Adjust height for tablets */
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video-container iframe {
+      height: 300px; /* Adjust height for mobile screens */
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .video-container iframe {
+      height: 200px; /* Adjust height for small mobile screens */
+      width: 100%;
+    }
+  }
 </style>
   
   <Footer/>

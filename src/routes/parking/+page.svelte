@@ -52,18 +52,6 @@
     margin: 0; 
   }
   
-  .page-title {
-    background-color: #485077;
-    color: #fed893;
-    font-size: 3rem;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
   
   .parking-info {
     padding: 2rem;
